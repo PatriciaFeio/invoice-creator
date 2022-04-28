@@ -1,0 +1,286 @@
+:root {
+    /* color */
+    --ultramarine-blue: #3770ED;
+    --raisin-black: #2b283a;
+    --dark-silver: #4A4E74;
+    --light-silver: #918E9B;
+    --orange: #FBBF24;
+    --yellow: #FBBF24;
+    /* typography, layout */
+    --font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--ultramarine-blue);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* =========================
+    colours
+ ===========================*/
+
+ h1,
+ .supporting-text {
+     color: var(--raisin-black);
+ }
+
+.btn-task,
+.form-task-list,
+.form-total-list,
+.form-note,
+.form-total-amount {
+    color: var(--dark-silver);
+ }
+
+.form-heading,
+.btn-remove,
+.form-total-list span {
+     color: var(--light-silver);
+ }
+
+ .footer-copyright,
+ .footer-copyright a {
+    color: #fff;
+ }
+
+ .footer-copyright {
+    color: #fff;
+ }
+
+ .footer-copyright a:hover {
+    color: var(--yellow);
+ }
+
+/* =========================
+    typography
+ ===========================*/
+
+ h1 {
+     font-size: 2.5rem; /* 40px */
+     font-weight: 800;
+ }
+
+ .btn-task {
+     font-size: 0.875rem; /* 14px */
+     font-weight: 500;
+ }
+
+ .form-heading {
+     font-size: 0.75rem; /* 12px */
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ .form-heading--weight {
+    font-weight: 700;
+ }
+
+ .form-task-list li {
+     font-size: 1.25rem; /* 20px */
+     font-weight: 700;
+ }
+
+ .form-total-list li {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+ }
+
+ .form-total-list li span {
+    font-weight: 300;
+ }
+
+ .btn-remove {
+    font-size: 0.5rem; /* 8px */
+}
+
+.form-note {
+    font-size: 0.75rem; /* 12px */
+}
+
+.form-total-amount {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 600;
+    line-height: 1;
+}
+
+ .footer-copyright {
+    font-size: 0.75rem;
+ }
+
+ /* =========================
+    layout
+ ===========================*/
+
+ .card-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+ .card-wrapper {
+    width: 90%;
+    max-width: 550px;
+    border-radius: 10px;
+    border: 10px double var(--ultramarine-blue);
+    background-color: #fff;
+ }
+
+ .card-header {
+    padding: 55px 35px;
+    text-align: center;
+    background-color: var(--yellow);
+ }
+
+ .card-body {
+     padding: 50px 15px;
+ }
+
+ .supporting-text {
+     margin-top: 10px;
+ }
+
+ .btn-wrapper {
+     display: flex;
+     gap: 15px;
+     margin-bottom: 43px;
+ }
+
+ .btn {
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 9px 13px;
+ }
+
+ .btn-task {
+    background-color: #fff;
+    border: 1px solid Var(--light-silver);
+ }
+
+ .btn-task:focus {
+    outline: 2px dotted var(--orange);
+ }
+
+ .btn-task:hover {
+     background-color: var(--ultramarine-blue);
+     border: 1px solid var(--ultramarine-blue);
+     color: #fff;
+ }
+
+ .btn-submit {
+     background-color: var(--ultramarine-blue);
+     color: #fff;
+ }
+
+ .btn-submit:hover {
+    background-color: #fff;
+    border: 1px solid var(--ultramarine-blue);
+    color: var(--ultramarine-blue);
+}
+
+.btn-submit-img {
+    padding-right: 12px;
+}
+
+ .form-tasks,
+ .form-notes {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 50px;
+ }
+
+ .form-notes {
+     border-top: 1px solid var(--light-silver);
+     padding-top: 11px;
+     margin-bottom: 50px;
+     height: 100px;
+ }
+
+ .form-heading--display {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .form-heading-height {
+     height: 100px;
+ }
+
+ .form-heading--right {
+    text-align: right;
+}
+
+.form-task-list,
+.form-total-list {
+    padding-top: 20px;
+}
+
+.form-task-list li:last-child,
+.form-total-list li:last-child {
+    padding-bottom: 0px;
+}
+
+.form-task-list li,
+.form-total-list li {
+    padding-bottom: 24px;
+}
+
+.form-note,
+.form-total-amount {
+    padding-top: 12px;
+}
+
+.btn-remove {
+    border: none;
+}
+
+
+/* =========================
+    media-queries
+ ===========================*/
+
+ @media (min-width: 550px) {
+   
+   .card-wrapper {
+       width: 85%;
+   }
+
+   .card-body {
+       padding: 50px 40px;
+   }
+
+   .form-notes {
+    height: 75px;
+}
+
+   .btn-generator {
+    flex: 0 0 50%;
+    }
+}

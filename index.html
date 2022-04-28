@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Patrícia Feio">
+        <title>Invoice creator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="card-display">
+        <div class="card-wrapper">
+            <div class="card-header">
+                <h1>Invoice creator</h1>
+                <p class="supporting-text">Thanks for choosing GoodCorp, LLC!</p>
+            </div>
+            <div class="card-body">
+                <div class="btn-wrapper">
+                    <button class="btn btn-task">Wash Car: $10</button>
+                    <button class="btn btn-task">Mow Lawn: $20</button>
+                    <button class="btn btn-task">Pull Weeds: $30</button>
+                </div>
+                <form action="">
+                    <div class="form-tasks">
+                        <div class="form-task">
+                            <h3 class="form-heading form-heading--weight">task</h3>
+<!--                             <ul class="form-task-list">
+                                <li>Wash Car <button class="btn-remove">Remove</button></li>
+                                <li>Mow Lawn <button class="btn-remove">Remove</button></li>
+                                <li>Pull Weeds <button class="btn-remove">Remove</button></li>
+                            </ul> -->
+                        </div>
+                        <div class="form-total">
+                            <h3 class="form-heading form-heading--weight form-heading--right">total</h3>
+<!--                             <ul class="form-total-list">
+                                <li><span>$</span>10</li>
+                                <li><span>$</span>20</li>
+                                <li><span>$</span>30</li>
+                            </ul> -->
+                        </div>
+                    </div>
+                    <div class="form-notes">
+                        <div class="form-heading--display form-heading--height">
+                            <h3 class="form-heading">notes</h3>
+                            <!-- <p class="form-note">We accept cash, credit card, or Paypal</p> -->
+                        </div>
+                        <div class="form-heading--display form-heading--right">
+                            <h3 class="form-heading">total amount</h3>
+                            <p class="form-total-amount">$0</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-submit"><img src="mail-icon.png" class="btn-submit-img"> invoice</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="footer-copyright">
+            <p>© 2022 <a href="https://patriciafeio.github.io/" target="_blank">Patrícia Feio</a></p>
+        </footer>
+    </body>
+    <script src="index.js"></script>
+</html>
