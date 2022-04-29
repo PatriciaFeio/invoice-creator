@@ -252,6 +252,10 @@ li {
     padding-bottom: 24px;
 }
 
+.form-total-list li {
+    padding-bottom: 18px;
+}
+
 .form-note,
 .form-total-amount {
     padding-top: 12px;
