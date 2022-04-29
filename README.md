@@ -6,7 +6,8 @@ The aim of this project is to build an invoice creator where the user can add av
 
 &nbsp;
 
-![ezgif com-gif-maker-500](https://user-images.githubusercontent.com/32905852/165924119-f232bfff-11a1-43df-93e4-5aa13746f487.gif)
+![invoiceCreator](https://user-images.githubusercontent.com/32905852/165929342-450fbc5c-f0e1-4aeb-ad53-76e08461fd79.gif)
+
 
 ***
 
