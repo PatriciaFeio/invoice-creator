@@ -56,6 +56,8 @@ btnTask.forEach((element, i) => {
             taskListItem.remove()
             totalListItem.remove()
 
+            btnTask[i].disabled = false
+
             totalAmount = totalAmount - taskPriceNumber
 
             formTotalAmount.innerHTML = `$${totalAmount}`
