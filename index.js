@@ -23,7 +23,7 @@ btnTask.forEach((element, i) => {
         const totalListItem = document.createElement("li")
         // create btn remove button
         const btnRemove = document.createElement("button")
-        // add class
+        // add a class to btnRemove
         btnRemove.classList.add("btn-remove")
         // add content to btnRemove
         btnRemove.innerHTML = "Remove"
@@ -43,10 +43,9 @@ btnTask.forEach((element, i) => {
 
         taskListItem.append(btnRemove)
 
-
         tasksArr.push(task)
-        totalAmount = totalAmount + taskPriceNumber
 
+        totalAmount = totalAmount + taskPriceNumber
         formTotalAmount.innerHTML = `$${totalAmount}`
 
         btnTask[i].disabled = true
