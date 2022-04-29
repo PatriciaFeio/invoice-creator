@@ -4,9 +4,9 @@
 The invoice creator is a Scrimba project from The Frontend Developer Career Path (Module 3).
 The aim of this project is to build an invoice creator where the user can add available services to a form and generate an invoice with the total amount to be paid. A remove button can also be added to allow the user to remove the selected service. Each service can only be added once.
 
+&nbsp;
 
-![invoice-creator_printscreen](https://user-images.githubusercontent.com/32905852/165869304-9d96b6fa-30c1-41bc-bf5f-0c73acf956e1.png)
-
+![ezgif com-gif-maker-500](https://user-images.githubusercontent.com/32905852/165924119-f232bfff-11a1-43df-93e4-5aa13746f487.gif)
 
 ***
 
